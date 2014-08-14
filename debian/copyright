@@ -1,0 +1,8 @@
+Format: http://dep.debian.net/deps/dep5
+Name: snapraid
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Source: http://sourceforge.net/projects/snapraid/files/
+
+Files: *
+Copyright: 2011-2014 Andrea Mazzoleni <amadvance@users.sourceforge.net>
+License: GPL-3

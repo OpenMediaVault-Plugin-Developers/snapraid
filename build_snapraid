@@ -1,0 +1,14 @@
+#!/bin/sh
+
+VERSION="6.3"
+
+if [ ! -d "snapraid-${VERSION}" ]; then
+  wget http://sourceforge.net/projects/snapraid/files/snapraid-${VERSION}.tar.gz/download -O snapraid-${VERSION}.tar.gz
+  tar xzf snapraid-${VERSION}.tar.gz
+  /bin/rm -f snapraid-${VERSION}.tar.gz
+fi
+
+cd snapraid-${VERSION}
+rm -rf debian
+cp -rf ../debian ./
+debuild -i -us -uc -b
