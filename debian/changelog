@@ -1,4 +1,10 @@
-snapraid (6.3-omv1) unstable; urgency=low
+snapraid (7.0-omv1) stable; urgency=low
+
+  * Update for snapraid 7.0
+
+ -- OpenMediaVault Plugin Developers <plugins@omv-extras.org>  Sun, 18 Jan 2015 11:11:21 -0600
+
+snapraid (6.3-omv1) stable; urgency=low
 
   * Initial release
 
