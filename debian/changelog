@@ -1,6 +1,6 @@
-snapraid (8.1-omv1) stable; urgency=low
+snapraid (8.0-omv1) stable; urgency=low
 
-  * Update for snapraid 8.1
+  * Update for snapraid 8.0
 
  -- OpenMediaVault Plugin Developers <plugins@omv-extras.org>  Fri, 15 May 2015 07:33:14 -0500
 
