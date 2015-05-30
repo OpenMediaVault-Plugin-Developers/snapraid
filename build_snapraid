@@ -1,6 +1,6 @@
 #!/bin/sh
 
-VERSION="8.0"
+VERSION="8.1"
 
 if [ ! -d "snapraid-${VERSION}" ]; then
   wget http://sourceforge.net/projects/snapraid/files/snapraid-${VERSION}.tar.gz/download -O snapraid-${VERSION}.tar.gz
