@@ -1,9 +1,9 @@
 #!/bin/sh
 
-VERSION="9.3"
+VERSION="10.0"
 
 if [ ! -d "snapraid-${VERSION}" ]; then
-  wget http://sourceforge.net/projects/snapraid/files/snapraid-${VERSION}.tar.gz/download -O snapraid-${VERSION}.tar.gz
+  wget https://github.com/amadvance/snapraid/archive/v${VERSION}.tar.gz -O snapraid-${VERSION}.tar.gz
   tar xzf snapraid-${VERSION}.tar.gz
   /bin/rm -f snapraid-${VERSION}.tar.gz
 fi
