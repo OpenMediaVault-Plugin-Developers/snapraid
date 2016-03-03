@@ -3,7 +3,7 @@
 VERSION="10.0"
 
 if [ ! -d "snapraid-${VERSION}" ]; then
-  wget https://github.com/amadvance/snapraid/archive/v${VERSION}.tar.gz -O snapraid-${VERSION}.tar.gz
+  wget https://github.com/amadvance/snapraid/releases/download/v${VERSION}/snapraid-${VERSION}.tar.gz
   tar xzf snapraid-${VERSION}.tar.gz
   /bin/rm -f snapraid-${VERSION}.tar.gz
 fi
