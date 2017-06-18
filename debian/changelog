@@ -1,3 +1,9 @@
+snapraid (11.1-1) stable; urgency=low
+
+  * Update to snapraid 11.1
+
+ -- OpenMediaVault Plugin Developers <plugins@omv-extras.org>  Sun, 18 Jun 2017 11:47:38 -0500
+
 snapraid (11.0-1) stable; urgency=low
 
   * Update to snapraid 11.0
