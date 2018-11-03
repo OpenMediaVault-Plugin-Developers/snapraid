@@ -1,6 +1,6 @@
 #!/bin/sh
 
-VERSION="11.2"
+VERSION="11.3"
 
 if [ ! -d "snapraid-${VERSION}" ]; then
   wget https://github.com/amadvance/snapraid/releases/download/v${VERSION}/snapraid-${VERSION}.tar.gz
