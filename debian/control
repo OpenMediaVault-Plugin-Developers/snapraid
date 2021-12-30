@@ -2,8 +2,8 @@ Source: snapraid
 Section: utils
 Priority: extra
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Build-Depends: debhelper (>= 9.0.0), autotools-dev
-Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 12), autotools-dev
+Standards-Version: 4.3.0
 Homepage: http://snapraid.sourceforge.net/
 
 Package: snapraid
